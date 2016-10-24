@@ -47,8 +47,8 @@ header{
 header h1{
 	display:inline-block;
 	font-weight:bold;
-	font-size:60px;
-	color:white;
+	font-size:85px;
+	color:#29c02f;
 }
 
 nav{
@@ -68,7 +68,7 @@ nav ul li{
 nav ul li a{
 	padding:4px;
 	text-decoration:none;
-	color:#ffc3b3;
+	color:#89f846;
 	font-size:45px;
 	font-weight:bold;
 }
