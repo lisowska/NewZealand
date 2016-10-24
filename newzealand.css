@@ -1,0 +1,378 @@
+body{
+	font-family: Lato;
+	margin:0;
+	line-height: 1.5;
+	letter-spacing:1px;
+}
+
+p {
+    margin: 1em 0;
+}
+
+header{
+	background-image:url("image/Milford_Sound.jpg");
+	height:700px;
+	padding:auto;
+	margin:auto;
+	background-position:center;
+	background-size:cover;
+}
+
+.full-width{
+	color:white;
+	width: 88%;
+    margin: auto;
+}
+
+.left-width{
+	width:280px;
+	float:left;
+}
+
+.menu{
+	padding-top:25px;
+    display: none;
+}
+
+.menu .li {
+    display: block;
+    text-align: center;
+}
+
+.logo{
+	margin:100px auto;
+	display:block;
+}
+
+header h1{
+	display:inline-block;
+	font-weight:bold;
+	font-size:60px;
+	color:white;
+}
+
+nav{
+	float:right;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+   
+}
+
+nav ul li{
+	display:block;
+    text-align: center;
+}
+
+nav ul li a{
+	padding:4px;
+	text-decoration:none;
+	color:#ffc3b3;
+	font-size:45px;
+	font-weight:bold;
+}
+
+nav ul li a:last-child{
+	padding-right:20px;
+}
+
+.description-about{
+	margin:auto;
+	width:70%;
+	text-align:center;
+}
+
+h1{
+	color:#AFCD53;
+	font-size:60px;
+	font-weight:lighter;
+	margin-bottom:2px;
+}
+
+h2{
+	color:#AFCD53;
+	font-size:30px;
+	font-weight:lighter;
+	margin-top:2px;
+}
+
+button{
+	background-color:#AFCD53;
+	padding:12px 32px;
+	color:white;
+	border:none;
+	text-align:center;
+	margin-bottom:20px;
+}
+.contener{
+	width: 90%;
+	margin: auto;
+	padding-bottom:40px;
+}
+
+.statistic{
+	text-align:center;
+}
+
+
+.number{
+	color:#AFCD53;
+	font-size:40px;
+	font-weight:lighter;
+	padding-bottom:2px;
+	margin-bottom:-18px;
+}
+
+.statistic:hover{
+	transform: scale(1.2);
+	-webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
+} 
+
+.statistic-text{
+	color:#AFCD53;
+	font-size:20px;
+}
+
+.activities-text{
+	width:70%;
+	margin:auto;
+	text-align:center;
+}
+
+.smart-image{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+
+}
+
+.smart-text{
+	color:#AFCD53;
+	font-size:17px;
+	font-weight:bold;
+	font-variant: small-caps;
+}
+
+.sustainable-image{
+	width:65%;
+	margin:auto;
+}
+
+#sheep h1{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#sheep{
+	width:70%;
+	margin:auto;
+	width:70%;
+	text-align:justify;
+}
+
+.sheep-description{
+	padding-left:20px;
+}
+
+.sheep-description p{
+	margin:0;
+}
+
+
+.sheep img{
+	padding-top:20px;
+}
+
+#trip{
+	text-align:center;
+	width:100%;
+	margin-top:100px;
+	margin-bottom:30px;
+}
+
+#trip h1{
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.newzealand-description{
+	margin:auto;
+	text-align:center;
+	background-image:url("image/queenstown.jpg");
+	background-repeat:no-repeat;
+	background-size:cover; 
+	background-position:center;
+}
+
+.newzealand-description p{
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+.text-newzealand{
+	float:left;
+	width: 360px;
+	height: 300px;
+	color:white;
+	padding-left:40px;
+	padding-top:30px;
+	font-weight:bold;
+}
+
+.text-newzealand h3{
+	font-weight:bold;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+.carousel .item {
+  height:400px; 
+  background-color: #777;
+}
+
+
+.carousel .item .active .house p{
+	color:white;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:70px;
+	font-weight:bold;
+	font-size:22px;
+	
+}
+.carousel .item p{
+	color:white;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:70px;
+	font-weight:bold;
+	font-size:22px;
+}
+
+.carousel .item h2{
+	padding-top:20px;
+	font-size:45px;
+	margin-top:25px;
+	font-weight:bold;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+
+
+
+@media (max-width: 600px){
+	.carousel {
+		display:none;
+		height:200px; 
+		background-color: #777;
+	}
+}
+
+
+.contact-details{
+	padding-left: 50px;
+    padding-right: 15px;
+}
+
+.quotation{
+    margin: 0 auto;
+	font-size:30px;
+	color:#AFCD53;
+	font-weight:bold;
+	font-style: italic;
+	text-align:center;
+}
+
+.quotation p{
+	margin-top:0;
+	margin-right:10px;
+}
+
+h3{
+	color:#AFCD53;
+}
+
+
+.social-media{
+	display:inline-block;
+	padding-right:10px;
+}
+
+.contact2{
+	display:inline-block;
+}
+
+.adress{
+	display:inline-block;
+	padding-right:20px;
+}
+
+.adress p, .contact2 p, .post-text p{
+	margin-top:0;
+}
+
+
+footer {
+	width:100%;
+	margin:auto;
+}
+
+.copyright{
+	font-size:8px;
+}
+
+.menu-mobile-button {
+  display: block;
+}
+
+@media (min-width: 769px) {
+    .menu {
+        display: block;
+    }
+
+    nav {
+        position: static;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: transparent;
+    }
+
+    nav ul li{
+    	display:inline-block;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    nav ul li a{
+    	font-size:18px;
+    }
+
+  .menu-mobile-button {
+    display: none;
+
+  }
+}
+@media (max-width: 768px) {
+	 nav {
+		 background-color: #AFCD53;
+	 }
+}
+
+
+@media (max-width: 600px){
+	.carousel {
+		display:none;
+		height:200px; 
+		background-color: #777;
+	}
+}
