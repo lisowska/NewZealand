@@ -39,16 +39,12 @@ header{
     text-align: center;
 }
 
-.logo{
-	margin:100px auto;
-	display:block;
-}
-
 header h1{
 	display:inline-block;
 	font-weight:bold;
 	font-size:85px;
-	color:#29c02f;
+	font-family: 'Oswald', sans-serif;
+	color:#e8ff0b;
 }
 
 nav{
@@ -57,7 +53,6 @@ nav{
     top: 60px;
     left: 0;
     right: 0;
-   
 }
 
 nav ul li{
@@ -68,9 +63,10 @@ nav ul li{
 nav ul li a{
 	padding:4px;
 	text-decoration:none;
-	color:#89f846;
 	font-size:45px;
 	font-weight:bold;
+	font-family: 'Oswald', sans-serif;
+	color:#e8ff0b;
 }
 
 nav ul li a:last-child{
@@ -104,6 +100,8 @@ button{
 	border:none;
 	text-align:center;
 	margin-bottom:20px;
+	font-weight:bolder;
+	
 }
 .contener{
 	width: 90%;
@@ -180,10 +178,18 @@ button{
 	margin:0;
 }
 
+.sheep-image{
+	display: inline-block;
+	width: 100%;
+	margin:0;
+	padding-top:20px;
+	padding-left:20px;
+}
 
 .sheep img{
-	padding-top:20px;
+	
 }
+
 
 #trip{
 	text-align:center;
@@ -316,10 +322,15 @@ h3{
 	padding-right:20px;
 }
 
-.adress p, .contact2 p, .post-text p{
+.adress p, .contact2 p{
 	margin-top:0;
 }
 
+.post-text{
+	display:inline-block;
+	width:70%;
+	
+}
 
 footer {
 	width:100%;
